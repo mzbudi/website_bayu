@@ -32,13 +32,19 @@
       </nav>
 
       <div class="container-fluid" >
-        <button id="btnPie" type="button" class="btn btn-primary">Diagram Pie</button>
-        <button id="btnHist" type="button" class="btn btn-primary">Hide Diagram</button>
+        <div style="margin-top: 10px">
+          <button id="btnPie" type="button" class="btn btn-primary">Diagram Pie</button>
+          <button id="btnHist" type="button" class="btn btn-primary">Hide Diagram</button>
+        </div>
         <h1> pencet tombol diatas mas</h1>
-        <p id="pieToogle" style="display: none;">
-          ini tabel pie 2 biji
-        </p>
-        <p id="histToogle" style="display: none;">
-          ini tabel histogram 2 biji
-        </p>
+        <div id="pieToogle" style="display: none;">
+          <?php
+            include_once('diagram/pie.php');
+          ?>
+        </div>
+        <div id="histToogle" style="display: none;">
+          <?php
+            include_once('diagram/hist.php');
+          ?>
+        </div>
       </div>
