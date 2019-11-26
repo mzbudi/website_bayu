@@ -42,6 +42,9 @@ class Sentimen extends CI_Controller {
 		}else if ($a == "diagram") {
 
 			$this->load->view('pages',array('content_active' => $a));
+		}else if ($a == "wordcloud") {
+
+			$this->load->view('pages',array('content_active' => $a));
 		}else{
 			$this->load->view('homepage');
 		}

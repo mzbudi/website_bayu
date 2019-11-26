@@ -1,5 +1,5 @@
 <div>
-<center><h2>Presentase Sentimen Jokowow</h2></center>
+<center><h2>Presentase Sentimen #01</h2></center>
 <center><img src='<?php echo base_url()?>images/pie.png'></center>
 <table class="table" style="margin-top:30px;">
   <thead class="thead-dark">
@@ -26,9 +26,11 @@
   </tbody>
 </table>
 </div>
-<hr>
+<hr style="border: 1px solid black; margin-top:50px;">
+<hr style="border: 1px dashed black">
+<hr style="border: 1px solid black; margin-bottom:50px;">
 <div>
-	<center><h2>Presentase Sentimen Prabewok</h2></center>
+	<center><h2>Presentase Sentimen #02</h2></center>
 	<center><img src='<?php echo base_url()?>images/pie.png'></center>
 	<table class="table" style="margin-top:30px;">
 	  <thead class="thead-dark">

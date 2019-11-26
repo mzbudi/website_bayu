@@ -15,7 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <style type="text/css">
 
-  	.bg::before {
+  	/* .bg::before {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,9 +26,27 @@
     opacity: .4;
     content: "";
     z-index: -1;
-}
 
-  	}
+    } */
+
+    .bg-top-head {
+      background: url('<?php echo base_url();?>images/pemilihan.jpg') left top no-repeat fixed;
+      background-size: 240px 97px;
+    }
+
+    .redColor {
+      background-color: #cc0000;
+    }
+
+    .margin-card {
+      margin-top: 100px;
+      margin-left: 100px;
+    }
+
+  	.img-card {
+      height: 200px;
+      width: inherit;
+    }
   </style>
 
 </head>
