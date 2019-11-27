@@ -27,18 +27,22 @@ class Sentimen extends CI_Controller {
 			$this->load->view('pages.php',$data_pages);		
 		}else if ($a == "tweet_jokowi") {
 
-			$data_tweet = $this->Modelsentimen->ambildata("list_tweet");
+			$data_tweet = $this->Modelsentimen->ambildata("tweet_jokowi");
+			$data_predict = $this->Modelsentimen->ambildata("jokowi_predict");
 
 			$this->load->view('pages',array(
 										'content_active'=>$a,
-										'data_tweet' => $data_tweet));
+										'data_tweet' => $data_tweet,
+										'data_predict' => $data_predict));
 		}else if ($a == "tweet_prabowo") {
 
-			$data_tweet = $this->Modelsentimen->ambildata("list_positif");
+			$data_tweet = $this->Modelsentimen->ambildata("tweet_prabowo");
+			$data_predict = $this->Modelsentimen->ambildata("prabowo_predict");
 
 			$this->load->view('pages',array(
 										'content_active'=>$a,
-										'data_tweet' => $data_tweet));
+										'data_tweet' => $data_tweet,
+										'data_predict' => $data_predict));
 		}else if ($a == "diagram") {
 
 			$this->load->view('pages',array('content_active' => $a));
@@ -48,7 +52,6 @@ class Sentimen extends CI_Controller {
 		}else{
 			$this->load->view('homepage');
 		}
-		
 	}
 
 }
