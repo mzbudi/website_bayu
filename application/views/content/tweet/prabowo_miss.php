@@ -15,11 +15,12 @@
     
     $n = 1;
 
-    foreach ($data_tweet as $key) {
+    foreach ($miss_predict as $key) {
       echo "<tr>";
-      echo "<td>".$n."</td>";
+      echo "<td>".$key['a']."</td>";
       echo "<td>".$key['b']."</td>";
       echo "<td>".$key['c']."</td>";
+      echo "<td>".$key['d']."</td>";
       echo "</tr>";
       $n++;
 

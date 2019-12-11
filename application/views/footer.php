@@ -8,13 +8,20 @@
 	      	e.preventDefault();
 	    	$("#wrapper").toggleClass("toggled");
     	});
+		$("#btnNew").click(function(){
+    		$("#pieToogle").hide();
+    		$("#histToogle").hide();
+			$("#newToogle").show();
+   		 });
     	$("#btnPie").click(function(){
     		$("#pieToogle").show();
     		$("#histToogle").hide();
+			$("#newToogle").hide();
    		 });
     	$("#btnHist").click(function(){
     		$("#pieToogle").hide();
     		$("#histToogle").show();
+			$("#newToogle").hide();
    		 });
     })
   </script>

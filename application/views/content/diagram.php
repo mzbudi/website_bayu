@@ -5,7 +5,7 @@
           <button id="btnPie" type="button" class="btn btn-primary">Diagram Pie</button>
           <button id="btnHist" type="button" class="btn btn-primary">Histogram</button>
         </div>
-        <div id="pieToogle" style="display: none;">
+        <div id="pieToogle">
           <?php
             include_once('diagram/pie.php');
           ?>

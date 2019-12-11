@@ -29,20 +29,24 @@ class Sentimen extends CI_Controller {
 
 			$data_tweet = $this->Modelsentimen->ambildata("tweet_jokowi");
 			$data_predict = $this->Modelsentimen->ambildata("jokowi_predict");
+			$miss_predict = $this->Modelsentimen->ambildata("miss_jokowi");
 
 			$this->load->view('pages',array(
 										'content_active'=>$a,
 										'data_tweet' => $data_tweet,
-										'data_predict' => $data_predict));
+										'data_predict' => $data_predict,
+										'miss_predict' => $miss_predict));
 		}else if ($a == "tweet_prabowo") {
 
 			$data_tweet = $this->Modelsentimen->ambildata("tweet_prabowo");
 			$data_predict = $this->Modelsentimen->ambildata("prabowo_predict");
+			$miss_predict = $this->Modelsentimen->ambildata("miss_prabowo");
 
 			$this->load->view('pages',array(
 										'content_active'=>$a,
 										'data_tweet' => $data_tweet,
-										'data_predict' => $data_predict));
+										'data_predict' => $data_predict,
+										'miss_predict' => $miss_predict));
 		}else if ($a == "diagram") {
 
 			$this->load->view('pages',array('content_active' => $a));
