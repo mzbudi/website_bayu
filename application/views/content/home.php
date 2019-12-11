@@ -9,7 +9,7 @@
       <!--  -->
       <div class="row">
         <div class="col">
-        <div class="card margin-card" style="width: 18rem;">
+        <div class="card margin-card" style="width: 25rem;">
         <img class="img-card" src="<?php echo base_url()?>images/joko.png" alt="">
           <div class="card-body">
             <center><p class="card-text">Joko widodo</p></center>
@@ -19,7 +19,7 @@
       </div>
         </div>
         <div class="col">
-        <div class="card margin-card" style="width: 18rem;">
+        <div class="card margin-card" style="width: 25rem;">
       <img class="img-card" src="<?php echo base_url()?>images/prabo.png" alt="">
           <div class="card-body">
           <center><p class="card-text">Prabowo Subianto</p></center>

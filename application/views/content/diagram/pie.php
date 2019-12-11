@@ -1,5 +1,5 @@
 <div>
-<center><h2>Presentase Sentimen #01</h2></center>
+<center><h2>Presentase Sentimen Jokowi-Ma'ruf</h2></center>
 <center><img src='<?php echo base_url()?>images/pie_joko.jpg'></center>
 <table class="table" style="margin-top:30px;">
   <thead class="thead-dark">
@@ -30,7 +30,7 @@
 <hr style="border: 1px dashed black">
 <hr style="border: 1px solid black; margin-bottom:50px;">
 <div>
-	<center><h2>Presentase Sentimen #02</h2></center>
+	<center><h2>Presentase Sentimen Prabowo-Sandi</h2></center>
 	<center><img src='<?php echo base_url()?>images/pie_prabo.jpg'></center>
 	<table class="table" style="margin-top:30px;">
 	  <thead class="thead-dark">

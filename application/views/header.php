@@ -40,7 +40,7 @@
 
     .margin-card {
       margin-top: 100px;
-      margin-left: 100px;
+      margin-left: 40px;
     }
 
   	.img-card {

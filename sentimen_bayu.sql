@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 27 Nov 2019 pada 02.34
+-- Waktu pembuatan: 11 Des 2019 pada 12.29
 -- Versi server: 10.1.38-MariaDB
 -- Versi PHP: 7.3.4
 
@@ -136,7 +136,63 @@ INSERT INTO `jokowi_predict` (`a`, `b`, `c`) VALUES
 (' khmarufamin ini benar luas wawasan dan jauh maju pandangannya penampilan boleh lokal sangat tapi pandangan dan wawasan luar biasa', '1', '1'),
 (' indonesia optimis bersama jokowi khmarufamin jokowi melalui kementerian perindustrian', '1', '1'),
 (' sejak tahun  jokowi telah membangun smelter untuk pengolahan raw material yang akan di ekspor', '1', '1'),
-(' prabowo kita harus contoh berani belajar dari yang hebat saya tidak menyalahkan pak jokowi ini kesalahan kita semua kita', '1', '1');
+(' prabowo kita harus contoh berani belajar dari yang hebat saya tidak menyalahkan pak jokowi ini kesalahan kita semua kita', '1', '1'),
+('malam ini pak khmaruf amin tampil prima tampak sekali beliau memang kuasai bidang ekonomi', '1', '1'),
+('colek psiid malu jokowi', '-1', '-1');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `miss_jokowi`
+--
+
+CREATE TABLE `miss_jokowi` (
+  `a` varchar(1000) NOT NULL,
+  `b` varchar(255) NOT NULL,
+  `c` varchar(255) NOT NULL,
+  `d` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `miss_jokowi`
+--
+
+INSERT INTO `miss_jokowi` (`a`, `b`, `c`, `d`) VALUES
+('5', ' perjanjian dagang banyak dilakukan selama pemerintahan jokowi sehingga membuka akses pasar untuk ekspor', '1', '-1'),
+('19', ' jokowi kurang menyerap aspirasi dari kaum emak selama berkampanye ', '-1', '1'),
+('25', ' jokowi akan membuat hidup makin susah', '-1', '1'),
+('53', ' jokowi ekonomi tidak tumbuh pemerataanpun tidak ada', '-1', '1'),
+('58', ' hei celakalah engkau yusuf mansur mempermainkan hukum agama untuk kepentingan pribadimu allah tdk memberi petunjuk', '-1', '1'),
+('92', ' jokowi dalam keuangan dan investasi jika kita konsisten mengembangkan pajak layanan akan memacu masyarakat', '1', '-1');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `miss_prabowo`
+--
+
+CREATE TABLE `miss_prabowo` (
+  `a` varchar(255) NOT NULL,
+  `b` varchar(1000) NOT NULL,
+  `c` varchar(255) NOT NULL,
+  `d` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `miss_prabowo`
+--
+
+INSERT INTO `miss_prabowo` (`a`, `b`, `c`, `d`) VALUES
+('6', 'dengan masuknya nasir dan somad ke barisan prabowo fix sudah bahwa tempatnya menampung pendukung khilafah pantes kasar', '-1', '1'),
+('8', 'jokowi saya tidak memiliki beban masa lalu sedangkan prabowo pernah menculik mahasiswa', '-1', '1'),
+('11', 'ternyata prabowo ada lagi yang ditakutin yaitu pajak', '-1', '1'),
+('35', ' kalimat pembuka pemaparan visi misi prabowo negeri ini berjalan ke arah yang salah jokowi rakyat indonesia', '-1', '1'),
+('46', 'masing orang punya cara dan strategi memenangkan prabowo  sandi selama tujuannya untuk tidak ada masalah', '1', '-1'),
+('52', ' beneran gak seimbang kemampuan dua pasang tersebut hebat bang sandiuno dan pak prabowo', '1', '-1'),
+('64', ' ini mah fakta jaga inflasi dengan impor inflasi kecil tapi petani lokal menjerit', '-1', '1'),
+('76', ' karena tidak transparan mengenai pajak jangan rakyat yang dibebani oleh hutang negara', '-1', '1'),
+('78', 'hahaha prabowo bener terus', '1', '-1'),
+('88', 'selesai ya pak prabowo tegaskan semua yang salah di negeri ini bukan salah pak jokowi tapi salah presiden sebelumnya', '1', '-1');
 
 -- --------------------------------------------------------
 
@@ -253,7 +309,8 @@ INSERT INTO `prabowo_predict` (`a`, `b`, `c`) VALUES
 (' karena presentasi prabowo ngawur makanya dia ketawain hadirin bukan ngetawain soal negara tapi presentasi prabowo yang ngawur', '-1', '-1'),
 (' perubahan besar itu kita mulai dengan memilih pak prabowo dan pak sandiaga', '1', '1'),
 (' sejauh ini yang terdahsyat dari debat malam ini kami akan menaikan ptkp sandiaga oke guys ini menarik', '1', '1'),
-(' prabowo sandiuno alhamdulillah', '1', '1');
+(' prabowo sandiuno alhamdulillah', '1', '1'),
+('tegas punya wibawa pak prabowo muda pintar pak sandiaga uno pasangan sempurna', '1', '1');
 
 -- --------------------------------------------------------
 
