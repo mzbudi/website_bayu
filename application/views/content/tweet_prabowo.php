@@ -2,7 +2,7 @@
 
   <div class="container-fluid" >
         <div style="margin-top: 10px">
-          <button id="btnNew" type="button" class="btn btn-primary">Tweet Prabowo</button>
+          <button id="btnNew" type="button" class="btn btn-primary">Keseluruhan Tweet</button>
           <button id="btnPie" type="button" class="btn btn-primary">Hasil Prediksi</button>
           <button id="btnHist" type="button" class="btn btn-primary">Kesalahan Prediksi</button>
         </div>
