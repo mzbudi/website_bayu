@@ -8,7 +8,6 @@
       <th scope="col">No</th>
       <th scope="col">Tweet</th>
       <th scope="col">Sentimen</th>
-      <th scope="col">Prediksi</th>
   </thead>
   <tbody>
   <?php
